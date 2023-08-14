@@ -4,8 +4,8 @@
     <div class="profile-page">
         {{#profile}}
             <img id="avatar" src="/src/partials/images/avatar.png" alt="">
-            <h3>{{firstname}}</h3>
-            {{>tables/table}}
+            {{>titles/title label='John' }}
+            {{>tables/table-edit}}
             {{>buttons/button label="Save"}}
         {{/profile}}
 
